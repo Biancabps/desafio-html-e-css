@@ -1,7 +1,8 @@
 :root {
     --cor-cinza: #667085;
-    --cor-branca: #FFFFFF;
+    --cor-branco: #FFFFFF;
     --cor-vinho:  #8E2424;
+    --cor-preto: #101828;
 
     --fonte-inter: 'Inter', sans-serif;
 }
@@ -62,4 +63,38 @@ header {
 
 .header_login--botao a {
     color: var(--cor-branca);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--fonte-inter);
+}
+
+.cabecalho__sobre {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--cor-vinho);
+    line-height: 24px;
+    margin-top: 96px;
+}
+
+.cabecalho__pergunta {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--cor-preto);
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    margin-top: 24px;
+}
+
+.cabecalho__resposta {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor-cinza);
+    line-height: 30px;
+    margin-top: 36px;
+    text-align: center;
+    width: 790px;
 }
