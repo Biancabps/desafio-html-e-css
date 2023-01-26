@@ -134,3 +134,41 @@ header {
     line-height: 24px;
     margin-top: 8px;
 }
+
+.vagas {
+    text-align: center;
+    font-family: var(--fonte-inter);
+    margin-top: 192px;
+}
+
+.vagas__span {
+    color: var(--cor-vinho);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+
+.vagas__titulo {
+    color: var(--cor-preto);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    margin-top: 16px;
+}
+
+.vagas__paragrafo {
+    color: var(--cor-cinza);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.vagas__img {
+    margin: 64px auto;
+}
