@@ -1,5 +1,6 @@
 :root {
     --cor-cinza: #667085;
+    --cor-cinza-claro: #EAECF0;
     --cor-branco: #FFFFFF;
     --cor-vinho:  #8E2424;
     --cor-preto: #101828;
@@ -167,8 +168,50 @@ header {
     font-weight: 400;
     line-height: 30px;
     margin-top: 20px;
+    margin-bottom: 64px;
 }
 
 .vagas__img {
-    margin: 64px auto;
+    margin: 0 auto;
+}
+
+.vagas-area {
+    font-family: var(--fonte-inter);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.vagas-area__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--cor-preto);
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.vaga {
+    border: 1px solid var(--cor-cinza-claro);
+    border-radius: 16px;
+    margin-bottom: 24px;
+    padding: 24px 24px 28px 24px;
+}
+
+.titulo-vaga {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--cor-preto);
+}
+
+.informacoes {
+    margin-top: 32px;
+    color: var(--cor-cinza);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.informacoes span {
+    margin-right: 24px;
 }
