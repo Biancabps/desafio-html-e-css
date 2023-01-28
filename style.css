@@ -215,3 +215,52 @@ header {
 .informacoes span {
     margin-right: 24px;
 }
+
+.depoimentos {
+    width: 80%;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 64px;
+    margin: 0 auto;
+    margin-top: 96px;
+    font-family: var(--fonte-inter);
+    display: flex;
+    flex-direction: column;
+}
+
+.depoimentos__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-vinho);
+    margin-bottom: 16px;
+    line-height: 20px;
+}
+
+.depoimentos__texto {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cor-preto);
+    margin-bottom: 32px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    width: 90%;
+}
+
+.depoimentos__img {
+    margin-bottom: 16px;
+}
+
+.depoimentos_nome {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cor-preto);
+}
+
+.depoimentos__cargo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--cor-cinza);
+}
