@@ -1,6 +1,8 @@
 :root {
     --cor-cinza: #667085;
+    --cor-cinza-medio: #98A2B3;
     --cor-cinza-claro: #EAECF0;
+    --cor-branco-off: #F9FAFB;
     --cor-branco: #FFFFFF;
     --cor-vinho:  #8E2424;
     --cor-preto: #101828;
@@ -263,4 +265,67 @@ header {
     font-weight: 400;
     line-height: 20px;
     color: var(--cor-cinza);
+}
+
+.rodape {
+    width: 100%;
+    background-color: var(--cor-branco-off);
+    margin-top: 96px;
+    text-align: center;
+    font-family: var(--fonte-inter);
+    padding: 96px 0;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: var(--cor-preto);
+    margin-bottom: 20px;
+}
+
+.rodape__texto {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--cor-cinza);
+    margin-bottom: 40px;
+}
+
+.rodape__form {
+    margin-bottom: 44px;
+}
+
+.rodape__form input {
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 12px 14px 12px 16px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    width: 360px;
+}
+
+.rodape__form button {
+    background-color: var(--cor-vinho);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    padding: 10px 20px;
+    color: var(--cor-branco);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+}
+
+.rodape__copyright {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-cinza-medio);
+    line-height: 24px;
 }
